@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <p id="resultado"></p>
+            <div class="columns">
+                <div class="colum1">
+                    <p><button id="7" onclick="insert('7')">7</button><button id="8" onclick="insert('8')">8</button><button id="9" onclick="insert('9')">9</button><button id="C" onclick="insert=cls()">C</button></p>
+                </div>
+                <div class="colum2">
+                    <p><button id="4" onclick="insert('4')">4</button><button id="5" onclick="insert('5')">5</button><button id="6" onclick="insert('6')">6</button><button id="x" onclick="insert('*')">x</button></p>
+                </div>
+                <div class="colum3">
+                    <p><button id="1" onclick="insert('1')">1</button><button id="2" onclick="insert('2')">2</button><button id="3" onclick="insert('3')">3</button><button id="menos" onclick="insert('-')">-</button></p>
+                </div>
+                <div class="colum4">
+                    <p><button id="0" onclick="insert('0')">0</button><button id="." onclick="insert('.')">.</button><button id="+" onclick="insert('+')">+</button><button id="igual" onclick="calcular()">=</button></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
