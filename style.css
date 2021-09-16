@@ -10,9 +10,6 @@ html{
     --IBM: 'IBM Plex Sans Arabic', sans-serif;
 }
 
-.darkMode{
-
-}
 
 .main{
     height: 100vh;
@@ -20,6 +17,20 @@ html{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.main .buttonDark{
+    border-radius: 0.25rem;
+    width: 5.2rem;
+    background: rgb(202, 199, 199);
+    margin-bottom: 2rem;
+    margin-right: 50rem;
+}
+
+.main .buttonDark #buttonDark{
+    margin-left: 2rem;
+    cursor: pointer;
+    border: none;
 }
 
 .main .container  #result{
