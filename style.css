@@ -10,6 +10,10 @@ html{
     --IBM: 'IBM Plex Sans Arabic', sans-serif;
 }
 
+.darkMode{
+
+}
+
 .main{
     height: 100vh;
     display: flex;
@@ -38,6 +42,11 @@ html{
     border: none; 
     padding: 1.11rem;
     border-radius: 5rem;
+}
+
+.main .columns button:hover{
+    transition: 0.7s;
+    background: rgb(187, 186, 186);
 }
 
 
