@@ -3,6 +3,7 @@ function insert(num){
     document.getElementById("result").innerHTML = number + num
 }
 
+
 function cls(){
     document.getElementById("result").innerHTML = " "
     if(document.getElementById("result")){

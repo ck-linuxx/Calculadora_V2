@@ -8,6 +8,7 @@ html{
     background: rgba(0, 0, 0, 0.74);
     font-size: 62.5;
     --IBM: 'IBM Plex Sans Arabic', sans-serif;
+    --Oswald: 'Oswald', sans-serif;
 }
 
 
@@ -19,19 +20,6 @@ html{
     flex-direction: column;
 }
 
-.main .buttonDark{
-    border-radius: 0.25rem;
-    width: 5.2rem;
-    background: rgb(202, 199, 199);
-    margin-bottom: 2rem;
-    margin-right: 50rem;
-}
-
-.main .buttonDark #buttonDark{
-    margin-left: 2rem;
-    cursor: pointer;
-    border: none;
-}
 
 .main .container  #result{
     background: rgb(15, 180, 180);
