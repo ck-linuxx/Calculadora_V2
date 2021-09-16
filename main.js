@@ -5,6 +5,11 @@ function insert(num){
 
 function cls(){
     document.getElementById("result").innerHTML = " "
+    if(document.getElementById("result")){
+        number
+    }else{
+        cls()
+    }
 }
 
 function calcular(){
